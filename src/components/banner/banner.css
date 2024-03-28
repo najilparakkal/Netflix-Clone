@@ -1,0 +1,27 @@
+.banner {
+  background-size: cover;
+  height: 5px;
+  color: white;
+}
+.content {
+  display: inline-grid;
+  width: 50%;
+  margin-top: 311px;
+    margin-left: 14%;
+}
+.title {
+ 
+  font-size: -webkit-xxx-large;
+  font-weight: 900;
+  color: #a32633;
+}
+
+.description {
+
+  color: gray;
+}
+.fade_bottom{
+  height: 2.8rem;
+  background-image: linear-gradient(180deg,transparent,rgba(37,37,37,.61),#111);
+
+}
