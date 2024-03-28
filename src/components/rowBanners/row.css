@@ -18,15 +18,17 @@
 }
 .poster:hover{
     transform: scale(1.5);
-}
-.smallPoster{
-    max-height: 140px;
+}.smallPoster {
+    max-height: 100px;
     margin-left: 10px;
     cursor: pointer;
+    transition: transform 0.5s ease;
 }
-.smallPoster:hover{
+
+.smallPoster:hover {
     transform: scale(1.3);
 }
+
 .poster-container {
     display: flex;
     flex-direction: column;
